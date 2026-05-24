@@ -1,0 +1,61 @@
+import SwiftUI
+
+enum TranslatorLanguage: String, CaseIterable, Identifiable {
+    case romana
+    case engleza
+    case franceza
+    case germana
+    case italiana
+    case spaniola
+    case maghiara
+
+    var id: String { rawValue }
+
+    var label: String {
+        switch self {
+        case .romana: return "Română"
+        case .engleza: return "Engleză"
+        case .franceza: return "Franceză"
+        case .germana: return "Germană"
+        case .italiana: return "Italiană"
+        case .spaniola: return "Spaniolă"
+        case .maghiara: return "Maghiară"
+        }
+    }
+
+    var subtitle: String {
+        switch self {
+        case .romana: return "Acte, formulare și ghiduri pentru perechea RO"
+        case .engleza: return "Certified translation, contracts, EN↔RO"
+        case .franceza: return "Traduction assermentée, documents FR↔RO"
+        case .germana: return "Beglaubigte Übersetzung, DE↔RO"
+        case .italiana: return "Traduzione asseverata, IT↔RO"
+        case .spaniola: return "Traducción jurada, ES↔RO"
+        case .maghiara: return "Fordítás, HU↔RO — formulare și contracte"
+        }
+    }
+
+    var flag: String {
+        switch self {
+        case .romana: return "🇷🇴"
+        case .engleza: return "🇬🇧"
+        case .franceza: return "🇫🇷"
+        case .germana: return "🇩🇪"
+        case .italiana: return "🇮🇹"
+        case .spaniola: return "🇪🇸"
+        case .maghiara: return "🇭🇺"
+        }
+    }
+
+    var color: Color {
+        switch self {
+        case .romana: return .red
+        case .engleza: return .blue
+        case .franceza: return Color(red: 0.0, green: 0.2, blue: 0.6)
+        case .germana: return Color(red: 0.9, green: 0.7, blue: 0.0)
+        case .italiana: return .green
+        case .spaniola: return .orange
+        case .maghiara: return Color(red: 0.0, green: 0.45, blue: 0.25)
+        }
+    }
+}

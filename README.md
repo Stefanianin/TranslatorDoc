@@ -10,9 +10,6 @@ Catalog gratuit de modele pentru traducători autorizați și birouri de traduce
 - Compatibil mobil
 - Companion pentru aplicația iOS Tradufy
 
-
-
-
 Pornește local
 
 cd /Users/stefanianinoiu/hhh/Tradufy

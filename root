@@ -1,0 +1,8 @@
+tradufy/                    ← repo-ul (proiectul) pe GitHub
+├── index.html              ← root = aici, direct sub tradufy
+├── styles.css
+├── app.js
+├── catalog.json
+└── README.md
+
+/Users/stefanianinoiu/hhh/TranslatorDocsWeb/

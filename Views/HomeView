@@ -1,0 +1,114 @@
+import SwiftUI
+
+struct HomeView: View {
+    @EnvironmentObject private var downloads: DownloadStore
+
+    var body: some View {
+        NavigationStack {
+            List {
+                Section {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Text("Bun venit")
+                            .font(.title2.bold())
+                        Text("Alege limba și categoria. Fiecare document are text model de copiat sau partajat.")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                        Label("\(downloads.totalDownloaded) documente salvate", systemImage: "arrow.down.circle.fill")
+                            .font(.subheadline.bold())
+                            .foregroundStyle(.blue)
+                    }
+                    .padding(.vertical, 4)
+                }
+
+                Section("Limbi") {
+                    ForEach(TranslatorLanguage.allCases) { language in
+                        NavigationLink {
+                            LanguageDetailView(language: language)
+                        } label: {
+                            LanguageRow(
+                                language: language,
+                                total: DocumentCatalog.documents(for: language).count,
+                                offline: downloads.downloadedCount(language: language)
+                            )
+                        }
+                    }
+                }
+            }
+            .navigationTitle("Documente traducători")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    NavigationLink {
+                        DownloadsView()
+                    } label: {
+                        Label("Descărcări", systemImage: "folder.fill")
+                            .badge(downloads.totalDownloaded)
+                    }
+                }
+            }
+        }
+    }
+}
+
+private struct LanguageRow: View {
+    let language: TranslatorLanguage
+    let total: Int
+    let offline: Int
+
+    var body: some View {
+        HStack(spacing: 14) {
+            Text(language.flag)
+                .font(.title)
+                .frame(width: 44, height: 44)
+                .background(language.color.opacity(0.12))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+
+            VStack(alignment: .leading, spacing: 4) {
+                Text(language.label)
+                    .font(.headline)
+                Text(language.subtitle)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(2)
+                Text("\(total) documente · \(offline) offline")
+                    .font(.caption2.bold())
+                    .foregroundStyle(language.color)
+            }
+        }
+        .padding(.vertical, 4)
+    }
+}
+
+struct CategoryRow: View {
+    let category: DocumentCategory
+    let total: Int
+    let offline: Int
+
+    var body: some View {
+        HStack(spacing: 14) {
+            Image(systemName: category.icon)
+                .font(.title2)
+                .foregroundStyle(category.color)
+                .frame(width: 40, height: 40)
+                .background(category.color.opacity(0.12))
+                .clipShape(RoundedRectangle(cornerRadius: 10))
+
+            VStack(alignment: .leading, spacing: 4) {
+                Text(category.label)
+                    .font(.headline)
+                Text(category.subtitle)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .lineLimit(2)
+                Text("\(total) documente · \(offline) offline")
+                    .font(.caption2.bold())
+                    .foregroundStyle(category.color)
+            }
+        }
+        .padding(.vertical, 2)
+    }
+}
+
+#Preview {
+    HomeView()
+        .environmentObject(DownloadStore())
+}

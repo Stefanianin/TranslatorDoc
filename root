@@ -1,5 +1,5 @@
-tradufy/                    ← repo-ul (proiectul) pe GitHub
-├── index.html              ← root = aici, direct sub tradufy
+TranslatorDoc/                      ← repo-ul (proiectul) pe GitHub
+├── index.html              ← root = aici, direct sub TranslatorDoc
 ├── styles.css
 ├── app.js
 ├── catalog.json

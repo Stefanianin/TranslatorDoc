@@ -2,14 +2,14 @@
 
 **Catalog gratuit de modele** pentru traducători autorizați și birouri de traduceri: declarații, contracte, formulare și ghiduri în **română, engleză, franceză, germană, italiană, spaniolă și maghiară**. Peste 70 de documente cu **text de copiat** (câmpuri `________` de completat), fără dependență de PDF-uri goale.
 
-Companion web al app-ului iOS **TranslatorDocs** — același catalog, vizibil în browser.
+Companion web al app-ului iOS **Tradufy** — același catalog, vizibil în browser.
 
 > Texte gata de lipit în GitHub / Netlify: vezi **[DESCRIERE.md](./DESCRIERE.md)**.
 
 ## Deschide local (pe Mac)
 
 ```bash
-cd /Users/stefanianinoiu/hhh/TranslatorDocsWeb
+cd /Users/stefanianinoiu/hhh/TradufyWeb
 python3 -m http.server 8080
 ```
 

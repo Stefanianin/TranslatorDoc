@@ -1,0 +1,840 @@
+{
+  "demoPdfUrl": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+  "languages": [
+    {
+      "id": "romana",
+      "code": "ro",
+      "label": "Română",
+      "flag": "🇷🇴",
+      "subtitle": "Acte, formulare și ghiduri pentru perechea RO",
+      "color": "#c62828"
+    },
+    {
+      "id": "engleza",
+      "code": "en",
+      "label": "Engleză",
+      "flag": "🇬🇧",
+      "subtitle": "Certified translation, contracts, EN↔RO",
+      "color": "#1565c0"
+    },
+    {
+      "id": "franceza",
+      "code": "fr",
+      "label": "Franceză",
+      "flag": "🇫🇷",
+      "subtitle": "Traduction assermentée, documents FR↔RO",
+      "color": "#003399"
+    },
+    {
+      "id": "germana",
+      "code": "de",
+      "label": "Germană",
+      "flag": "🇩🇪",
+      "subtitle": "Beglaubigte Übersetzung, DE↔RO",
+      "color": "#e6b800"
+    },
+    {
+      "id": "italiana",
+      "code": "it",
+      "label": "Italiană",
+      "flag": "🇮🇹",
+      "subtitle": "Traduzione asseverata, IT↔RO",
+      "color": "#2e7d32"
+    },
+    {
+      "id": "spaniola",
+      "code": "es",
+      "label": "Spaniolă",
+      "flag": "🇪🇸",
+      "subtitle": "Traducción jurada, ES↔RO",
+      "color": "#ef6c00"
+    },
+    {
+      "id": "maghiara",
+      "code": "hu",
+      "label": "Maghiară",
+      "flag": "🇭🇺",
+      "subtitle": "Fordítás, HU↔RO — formulare și contracte",
+      "color": "#007a3d"
+    }
+  ],
+  "categories": [
+    {
+      "id": "importante",
+      "label": "Importante",
+      "subtitle": "Certificări, acte, documente esențiale",
+      "color": "#c62828",
+      "icon": "★"
+    },
+    {
+      "id": "deServiciu",
+      "label": "De serviciu",
+      "subtitle": "Politici, tarife, proceduri interne",
+      "color": "#1565c0",
+      "icon": "💼"
+    },
+    {
+      "id": "contracte",
+      "label": "Contracte",
+      "subtitle": "Modele și contracte semnate",
+      "color": "#2e7d32",
+      "icon": "📄"
+    },
+    {
+      "id": "ghiduri",
+      "label": "Ghiduri",
+      "subtitle": "Terminologie, stil, standarde",
+      "color": "#6a1b9a",
+      "icon": "📚"
+    },
+    {
+      "id": "formulare",
+      "label": "Formulare",
+      "subtitle": "Cereri, declarații, fișe",
+      "color": "#e65100",
+      "icon": "📋"
+    }
+  ],
+  "documents": [
+    {
+      "id": "ro_cert_mae",
+      "language": "romana",
+      "category": "importante",
+      "title": "Formular traducere legalizată (MAE)",
+      "description": "Model cerere traducere legalizată la Ministerul Afacerilor Externe.",
+      "fileName": "ro_mae_traducere_legalizata.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Formular traducere legalizată (MAE)\n(Model cerere traducere legalizată la Ministerul Afacerilor Externe.)\n\nTip document: certificare / declarație oficială. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nDECLARAȚIE\n\nSubsemnatul/a _________________________, traducător autorizat, declar pe propria răspundere că:\n1. Traducerea documentului menționat mai sus este fidelă și completă față de original;\n2. Am păstrat sensul juridic și terminologia instituțională;\n3. Traducerea este destinată ___________________________________________.\n\nAnexez copia documentului sursă / menționez nr. dosar: ____________________.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_cert_autorizare",
+      "language": "romana",
+      "category": "importante",
+      "title": "Certificat traducător autorizat",
+      "description": "Copie model certificat de autorizare / atestare profesională.",
+      "fileName": "ro_certificat_autorizare.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Certificat traducător autorizat\n(Copie model certificat de autorizare / atestare profesională.)\n\nTip document: certificare / declarație oficială. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nDECLARAȚIE\n\nSubsemnatul/a _________________________, traducător autorizat, declar pe propria răspundere că:\n1. Traducerea documentului menționat mai sus este fidelă și completă față de original;\n2. Am păstrat sensul juridic și terminologia instituțională;\n3. Traducerea este destinată ___________________________________________.\n\nAnexez copia documentului sursă / menționez nr. dosar: ____________________.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_decl_proprie_raspundere",
+      "language": "romana",
+      "category": "importante",
+      "title": "Declarație pe proprie răspundere",
+      "description": "Declarație traducător pentru acte destinate instituțiilor din România.",
+      "fileName": "ro_declaratie_proprie_raspundere.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Declarație pe proprie răspundere\n(Declarație traducător pentru acte destinate instituțiilor din România.)\n\nTip document: certificare / declarație oficială. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nDECLARAȚIE\n\nSubsemnatul/a _________________________, traducător autorizat, declar pe propria răspundere că:\n1. Traducerea documentului menționat mai sus este fidelă și completă față de original;\n2. Am păstrat sensul juridic și terminologia instituțională;\n3. Traducerea este destinată ___________________________________________.\n\nAnexez copia documentului sursă / menționez nr. dosar: ____________________.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_grila_tarife_ro",
+      "language": "romana",
+      "category": "deServiciu",
+      "title": "Grilă tarife RO ↔ străină",
+      "description": "Tarife standard per pagină, cuvânt, legalizare, urgență.",
+      "fileName": "ro_grila_tarife.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Grilă tarife RO ↔ străină\n(Tarife standard per pagină, cuvânt, legalizare, urgență.)\n\nTip document: politică internă, tarife, proceduri. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\n1. TARIFE (orientative)\n   • Standard: ______ RON / pagină A4\n   • Legalizare / apostilă (informare): conform tarif MAE / notar\n   • Urgență (<48h): +_____%\n\n2. PROCEDURĂ\n   • Primire fișiere: email / cloud securizat\n   • Revizii incluse: 1 rundă minoră în 5 zile lucrătoare\n\n3. GDPR: datele clienților sunt prelucrate doar pentru executarea contractului.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_procedura_apostila",
+      "language": "romana",
+      "category": "deServiciu",
+      "title": "Procedură apostilă și supralegalizare",
+      "description": "Pași pentru acte cu apostilă Hague sau legalizare consulară.",
+      "fileName": "ro_procedura_apostila.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Procedură apostilă și supralegalizare\n(Pași pentru acte cu apostilă Hague sau legalizare consulară.)\n\nTip document: politică internă, tarife, proceduri. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\n1. TARIFE (orientative)\n   • Standard: ______ RON / pagină A4\n   • Legalizare / apostilă (informare): conform tarif MAE / notar\n   • Urgență (<48h): +_____%\n\n2. PROCEDURĂ\n   • Primire fișiere: email / cloud securizat\n   • Revizii incluse: 1 rundă minoră în 5 zile lucrătoare\n\n3. GDPR: datele clienților sunt prelucrate doar pentru executarea contractului.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_politica_gdpr_ro",
+      "language": "romana",
+      "category": "deServiciu",
+      "title": "Politica GDPR — birou traduceri",
+      "description": "Prelucrare date clienți conform legislației UE/RO.",
+      "fileName": "ro_politica_gdpr.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Politica GDPR — birou traduceri\n(Prelucrare date clienți conform legislației UE/RO.)\n\nTip document: politică internă, tarife, proceduri. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\n1. TARIFE (orientative)\n   • Standard: ______ RON / pagină A4\n   • Legalizare / apostilă (informare): conform tarif MAE / notar\n   • Urgență (<48h): +_____%\n\n2. PROCEDURĂ\n   • Primire fișiere: email / cloud securizat\n   • Revizii incluse: 1 rundă minoră în 5 zile lucrătoare\n\n3. GDPR: datele clienților sunt prelucrate doar pentru executarea contractului.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_contract_prestari_ro",
+      "language": "romana",
+      "category": "contracte",
+      "title": "Contract prestări servicii (RO)",
+      "description": "Contract între traducător și beneficiar persoană fizică/juridică.",
+      "fileName": "ro_contract_prestari.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Contract prestări servicii (RO)\n(Contract între traducător și beneficiar persoană fizică/juridică.)\n\nTip document: contract între părți. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nÎNTRE:\nPrestator: _________________________ (traducător autorizat)\nBeneficiar: ________________________ (persoană fizică / juridică)\n\nOBIECT: prestarea serviciilor de traducere pentru documentele enumerate în Anexa 1.\n\nTARIF: conform grilei agreate — ______ / pagină (sau / cuvânt).\nTERMEN: livrare până la data ___________.\nCONFIDENȚIALITATE: părțile păstrează confidențialitatea documentelor primite.\n\nSemnături: Prestator _________  Beneficiar _________  Data _________\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_nda_ro",
+      "language": "romana",
+      "category": "contracte",
+      "title": "Acord confidențialitate (RO)",
+      "description": "NDA pentru proiecte cu documente sensibile.",
+      "fileName": "ro_nda.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Acord confidențialitate (RO)\n(NDA pentru proiecte cu documente sensibile.)\n\nTip document: contract între părți. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nÎNTRE:\nPrestator: _________________________ (traducător autorizat)\nBeneficiar: ________________________ (persoană fizică / juridică)\n\nOBIECT: prestarea serviciilor de traducere pentru documentele enumerate în Anexa 1.\n\nTARIF: conform grilei agreate — ______ / pagină (sau / cuvânt).\nTERMEN: livrare până la data ___________.\nCONFIDENȚIALITATE: părțile păstrează confidențialitatea documentelor primite.\n\nSemnături: Prestator _________  Beneficiar _________  Data _________\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_terminologie_institutii",
+      "language": "romana",
+      "category": "ghiduri",
+      "title": "Terminologie instituții publice RO",
+      "description": "Denumiri oficiale: ANAF, ONRC, primărie, tribunal etc.",
+      "fileName": "ro_ghid_terminologie_institutii.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Terminologie instituții publice RO\n(Denumiri oficiale: ANAF, ONRC, primărie, tribunal etc.)\n\nTip document: ghid de terminologie și stil. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nExemple de echivalențe (RO ↔ limbă țintă):\n• certificat de naștere → _______________________________\n• casatorie / marriage certificate → ______________________\n• hotărâre judecătorească → _____________________________\n• Agenția Națională de Administrare Fiscală (ANAF) → ______\n\nReguli: păstrează numele proprii; instituțiile — prima mențiune cu explicație.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_diacritice_ortografie",
+      "language": "romana",
+      "category": "ghiduri",
+      "title": "Ghid diacritice și ortografie",
+      "description": "Reguli pentru ă, â, î, ș, ț în traduceri oficiale.",
+      "fileName": "ro_ghid_diacritice.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Ghid diacritice și ortografie\n(Reguli pentru ă, â, î, ș, ț în traduceri oficiale.)\n\nTip document: ghid de terminologie și stil. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nExemple de echivalențe (RO ↔ limbă țintă):\n• certificat de naștere → _______________________________\n• casatorie / marriage certificate → ______________________\n• hotărâre judecătorească → _____________________________\n• Agenția Națională de Administrare Fiscală (ANAF) → ______\n\nReguli: păstrează numele proprii; instituțiile — prima mențiune cu explicație.\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_cerere_urgenta_ro",
+      "language": "romana",
+      "category": "formulare",
+      "title": "Cerere traducere urgentă",
+      "description": "Formular intern termen sub 24–48 h.",
+      "fileName": "ro_cerere_urgenta.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Cerere traducere urgentă\n(Formular intern termen sub 24–48 h.)\n\nTip document: formular de completat. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nCERERE\n\nSolicit traducerea documentelor anexate, în regim:\n☐ standard   ☐ urgent (termen: ___________)\n\nLivrare dorită: ☐ PDF semnat digital  ☐ hârtie  ☐ ambele\nContact: email _______________  telefon _______________\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "ro_fisa_proiect_ro",
+      "language": "romana",
+      "category": "formulare",
+      "title": "Fișă proiect traducere RO",
+      "description": "Limba sursă/țintă, volum, deadline, livrare.",
+      "fileName": "ro_fisa_proiect.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODEL — Fișă proiect traducere RO\n(Limba sursă/țintă, volum, deadline, livrare.)\n\nTip document: formular de completat. Text de adaptat la cazul concret; păstrează diacriticele (ă â î ș ț).\n\nCERERE\n\nSolicit traducerea documentelor anexate, în regim:\n☐ standard   ☐ urgent (termen: ___________)\n\nLivrare dorită: ☐ PDF semnat digital  ☐ hârtie  ☐ ambele\nContact: email _______________  telefon _______________\n\nDate de completat:\n• Nume și prenume traducător: ___________________________\n• Autorizare / nr. atestat: _____________________________\n• Beneficiar: ___________________________________________\n• Act tradus (tip, nr.): ________________________________\n• Limba sursă → țintă: __________________________________\n• Data: _______________    Locul: _______________________\n• Semnătură și ștampilă: ________________________________\n\n— Limba documentului: Română"
+    },
+    {
+      "id": "en_certified_cover_sheet",
+      "language": "engleza",
+      "category": "importante",
+      "title": "Certified Translation Cover Sheet",
+      "description": "Standard cover page for certified translations (EN).",
+      "fileName": "en_certified_cover_sheet.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Certified Translation Cover Sheet\n(Standard cover page for certified translations (EN).)\n\nDocument type: certificare / declarație oficială. Adapt wording to your jurisdiction and client matter.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_translator_affidavit",
+      "language": "engleza",
+      "category": "importante",
+      "title": "Translator's Affidavit (Statement of Accuracy)",
+      "description": "Sworn statement of completeness and accuracy.",
+      "fileName": "en_translator_affidavit.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Translator's Affidavit (Statement of Accuracy)\n(Sworn statement of completeness and accuracy.)\n\nDocument type: certificare / declarație oficială. Adapt wording to your jurisdiction and client matter.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_uscis_cover_letter",
+      "language": "engleza",
+      "category": "importante",
+      "title": "USCIS Translation Certification Template",
+      "description": "Format accepted for US immigration document translations.",
+      "fileName": "en_uscis_certification.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — USCIS Translation Certification Template\n(Format accepted for US immigration document translations.)\n\nDocument type: certificare / declarație oficială. Adapt wording to your jurisdiction and client matter.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_rate_card_en",
+      "language": "engleza",
+      "category": "deServiciu",
+      "title": "Rate Card — EN Projects",
+      "description": "Per word, per page, rush fees, notarization add-ons.",
+      "fileName": "en_rate_card.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Rate Card — EN Projects\n(Per word, per page, rush fees, notarization add-ons.)\n\nDocument type: politică internă, tarife, proceduri. Adapt wording to your jurisdiction and client matter.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_delivery_sla_en",
+      "language": "engleza",
+      "category": "deServiciu",
+      "title": "Delivery & SLA (English)",
+      "description": "Turnaround times, revisions, file formats.",
+      "fileName": "en_delivery_sla.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Delivery & SLA (English)\n(Turnaround times, revisions, file formats.)\n\nDocument type: politică internă, tarife, proceduri. Adapt wording to your jurisdiction and client matter.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_style_guide_public_sector",
+      "language": "engleza",
+      "category": "deServiciu",
+      "title": "UK Public Sector Style Notes",
+      "description": "Tone and formatting for official EN translations.",
+      "fileName": "en_style_guide_public.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — UK Public Sector Style Notes\n(Tone and formatting for official EN translations.)\n\nDocument type: politică internă, tarife, proceduri. Adapt wording to your jurisdiction and client matter.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_service_agreement_en",
+      "language": "engleza",
+      "category": "contracte",
+      "title": "Translation Service Agreement (EN)",
+      "description": "Client–translator contract template.",
+      "fileName": "en_service_agreement.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Translation Service Agreement (EN)\n(Client–translator contract template.)\n\nDocument type: contract între părți. Adapt wording to your jurisdiction and client matter.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_nda_en",
+      "language": "engleza",
+      "category": "contracte",
+      "title": "Non-Disclosure Agreement (EN)",
+      "description": "Standard NDA for confidential projects.",
+      "fileName": "en_nda.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Non-Disclosure Agreement (EN)\n(Standard NDA for confidential projects.)\n\nDocument type: contract între părți. Adapt wording to your jurisdiction and client matter.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_legal_glossary_en_ro",
+      "language": "engleza",
+      "category": "ghiduri",
+      "title": "Legal Glossary EN ↔ RO",
+      "description": "Common court and contract terms.",
+      "fileName": "en_legal_glossary_en_ro.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Legal Glossary EN ↔ RO\n(Common court and contract terms.)\n\nDocument type: ghid de terminologie și stil. Adapt wording to your jurisdiction and client matter.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_certificate_types_en",
+      "language": "engleza",
+      "category": "ghiduri",
+      "title": "Guide: Birth, Marriage, Diploma Certificates",
+      "description": "Field names and standard phrasing in EN.",
+      "fileName": "en_certificate_types_guide.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Guide: Birth, Marriage, Diploma Certificates\n(Field names and standard phrasing in EN.)\n\nDocument type: ghid de terminologie și stil. Adapt wording to your jurisdiction and client matter.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_rush_request_en",
+      "language": "engleza",
+      "category": "formulare",
+      "title": "Rush Translation Request Form",
+      "description": "Express job intake.",
+      "fileName": "en_rush_request.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Rush Translation Request Form\n(Express job intake.)\n\nDocument type: formular de completat. Adapt wording to your jurisdiction and client matter.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "en_project_intake_en",
+      "language": "engleza",
+      "category": "formulare",
+      "title": "Project Intake Form (EN)",
+      "description": "Source files, target language, deadline.",
+      "fileName": "en_project_intake.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "TEMPLATE — Project Intake Form (EN)\n(Source files, target language, deadline.)\n\nDocument type: formular de completat. Adapt wording to your jurisdiction and client matter.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nFields to complete:\n• Translator full name: _________________________________\n• Certification / license no.: __________________________\n• Client / requester: ___________________________________\n• Source document (type, ref.): _________________________\n• Source → target language: _____________________________\n• Date: _______________    Place: _________________________\n• Signature & stamp: ____________________________________\n\n— Limba documentului: English"
+    },
+    {
+      "id": "fr_attestation_assermentation",
+      "language": "franceza",
+      "category": "importante",
+      "title": "Attestation de traduction assermentée",
+      "description": "Formule pour traduction certifiée devant cour d'appel.",
+      "fileName": "fr_attestation_assermentee.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Attestation de traduction assermentée\n(Formule pour traduction certifiée devant cour d'appel.)\n\nType : certificare / declarație oficială. Adapter au dossier et à la juridiction concernée.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_declaration_exactitude",
+      "language": "franceza",
+      "category": "importante",
+      "title": "Déclaration d'exactitude du traducteur",
+      "description": "Engagement sur l'exactitude et la complétude.",
+      "fileName": "fr_declaration_exactitude.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Déclaration d'exactitude du traducteur\n(Engagement sur l'exactitude et la complétude.)\n\nType : certificare / declarație oficială. Adapter au dossier et à la juridiction concernée.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_grille_tarifs_fr",
+      "language": "franceza",
+      "category": "deServiciu",
+      "title": "Grille tarifaire FR ↔ RO",
+      "description": "Tarifs page, mot, urgence, legalization.",
+      "fileName": "fr_grille_tarifs.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Grille tarifaire FR ↔ RO\n(Tarifs page, mot, urgence, legalization.)\n\nType : politică internă, tarife, proceduri. Adapter au dossier et à la juridiction concernée.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_procedure_apostille_fr",
+      "language": "franceza",
+      "category": "deServiciu",
+      "title": "Procédure apostille (Convention de La Haye)",
+      "description": "Étapes pour documents destinés à la France/UE.",
+      "fileName": "fr_procedure_apostille.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Procédure apostille (Convention de La Haye)\n(Étapes pour documents destinés à la France/UE.)\n\nType : politică internă, tarife, proceduri. Adapter au dossier et à la juridiction concernée.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_contrat_prestation_fr",
+      "language": "franceza",
+      "category": "contracte",
+      "title": "Contrat de prestation de traduction",
+      "description": "Modèle contrat traducteur–client.",
+      "fileName": "fr_contrat_prestation.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Contrat de prestation de traduction\n(Modèle contrat traducteur–client.)\n\nType : contract între părți. Adapter au dossier et à la juridiction concernée.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_nda_fr",
+      "language": "franceza",
+      "category": "contracte",
+      "title": "Accord de confidentialité (FR)",
+      "description": "NDA projets sensibles.",
+      "fileName": "fr_nda.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Accord de confidentialité (FR)\n(NDA projets sensibles.)\n\nType : contract între părți. Adapter au dossier et à la juridiction concernée.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_terminologie_admin_fr",
+      "language": "franceza",
+      "category": "ghiduri",
+      "title": "Terminologie administrative française",
+      "description": "Préfecture, mairie, tribunal, URSSAF etc.",
+      "fileName": "fr_terminologie_admin.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Terminologie administrative française\n(Préfecture, mairie, tribunal, URSSAF etc.)\n\nType : ghid de terminologie și stil. Adapter au dossier et à la juridiction concernée.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_actes_etat_civil_fr",
+      "language": "franceza",
+      "category": "ghiduri",
+      "title": "Guide actes d'état civil",
+      "description": "Naissance, mariage, décès — formulations types.",
+      "fileName": "fr_guide_etat_civil.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Guide actes d'état civil\n(Naissance, mariage, décès — formulations types.)\n\nType : ghid de terminologie și stil. Adapter au dossier et à la juridiction concernée.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_demande_urgente_fr",
+      "language": "franceza",
+      "category": "formulare",
+      "title": "Demande de traduction urgente",
+      "description": "Formulaire délai court.",
+      "fileName": "fr_demande_urgente.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Demande de traduction urgente\n(Formulaire délai court.)\n\nType : formular de completat. Adapter au dossier et à la juridiction concernée.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "fr_fiche_projet_fr",
+      "language": "franceza",
+      "category": "formulare",
+      "title": "Fiche projet FR ↔ RO",
+      "description": "Langues, volume, échéance.",
+      "fileName": "fr_fiche_projet.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODÈLE — Fiche projet FR ↔ RO\n(Langues, volume, échéance.)\n\nType : formular de completat. Adapter au dossier et à la juridiction concernée.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nÀ compléter :\n• Nom du traducteur : ___________________________________\n• N° d'assermentation : _________________________________\n• Client / demandeur : __________________________________\n• Document source (type, réf.) : ________________________\n• Langue source → cible : _______________________________\n• Date : _______________    Lieu : _______________________\n• Signature et cachet : __________________________________\n\n— Limba documentului: Français"
+    },
+    {
+      "id": "de_beglaubigung_deckblatt",
+      "language": "germana",
+      "category": "importante",
+      "title": "Beglaubigte Übersetzung — Deckblatt",
+      "description": "Standarddeckblatt für amtliche Übersetzungen.",
+      "fileName": "de_beglaubigung_deckblatt.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Beglaubigte Übersetzung — Deckblatt\n(Standarddeckblatt für amtliche Übersetzungen.)\n\nDokumentart: certificare / declarație oficială. An Auftrag und Behörde anpassen.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_versicherung_richtigkeit",
+      "language": "germana",
+      "category": "importante",
+      "title": "Versicherung der Richtigkeit (Übersetzer)",
+      "description": "Erklärung zur Vollständigkeit und Richtigkeit.",
+      "fileName": "de_versicherung_richtigkeit.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Versicherung der Richtigkeit (Übersetzer)\n(Erklärung zur Vollständigkeit und Richtigkeit.)\n\nDokumentart: certificare / declarație oficială. An Auftrag und Behörde anpassen.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_preisliste_de",
+      "language": "germana",
+      "category": "deServiciu",
+      "title": "Preisliste DE ↔ RO",
+      "description": "Seite, Wort, Express, Beglaubigung.",
+      "fileName": "de_preisliste.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Preisliste DE ↔ RO\n(Seite, Wort, Express, Beglaubigung.)\n\nDokumentart: politică internă, tarife, proceduri. An Auftrag und Behörde anpassen.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_apostille_verfahren",
+      "language": "germana",
+      "category": "deServiciu",
+      "title": "Apostille-Verfahren (Haager Übereinkommen)",
+      "description": "Ablauf für Dokumente nach Deutschland/Österreich.",
+      "fileName": "de_apostille_verfahren.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Apostille-Verfahren (Haager Übereinkommen)\n(Ablauf für Dokumente nach Deutschland/Österreich.)\n\nDokumentart: politică internă, tarife, proceduri. An Auftrag und Behörde anpassen.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_uebersetzungsvertrag",
+      "language": "germana",
+      "category": "contracte",
+      "title": "Übersetzungsvertrag",
+      "description": "Vertrag Übersetzer–Auftraggeber.",
+      "fileName": "de_uebersetzungsvertrag.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Übersetzungsvertrag\n(Vertrag Übersetzer–Auftraggeber.)\n\nDokumentart: contract între părți. An Auftrag und Behörde anpassen.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_nda_de",
+      "language": "germana",
+      "category": "contracte",
+      "title": "Vertraulichkeitsvereinbarung (NDA)",
+      "description": "Für vertrauliche Projekte.",
+      "fileName": "de_nda.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Vertraulichkeitsvereinbarung (NDA)\n(Für vertrauliche Projekte.)\n\nDokumentart: contract între părți. An Auftrag und Behörde anpassen.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_behoerden_terminologie",
+      "language": "germana",
+      "category": "ghiduri",
+      "title": "Behörden-Terminologie DE",
+      "description": "Standesamt, Finanzamt, Gericht, Bürgeramt.",
+      "fileName": "de_behoerden_terminologie.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Behörden-Terminologie DE\n(Standesamt, Finanzamt, Gericht, Bürgeramt.)\n\nDokumentart: ghid de terminologie și stil. An Auftrag und Behörde anpassen.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_urkunden_leitfaden",
+      "language": "germana",
+      "category": "ghiduri",
+      "title": "Leitfaden Urkunden (Geburt, Heirat, Zeugnis)",
+      "description": "Typische Formulierungen.",
+      "fileName": "de_urkunden_leitfaden.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Leitfaden Urkunden (Geburt, Heirat, Zeugnis)\n(Typische Formulierungen.)\n\nDokumentart: ghid de terminologie și stil. An Auftrag und Behörde anpassen.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_eilanfrage_de",
+      "language": "germana",
+      "category": "formulare",
+      "title": "Eilanfrage Übersetzung",
+      "description": "Express-Auftrag.",
+      "fileName": "de_eilanfrage.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Eilanfrage Übersetzung\n(Express-Auftrag.)\n\nDokumentart: formular de completat. An Auftrag und Behörde anpassen.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "de_projektblatt_de",
+      "language": "germana",
+      "category": "formulare",
+      "title": "Projektblatt DE ↔ RO",
+      "description": "Sprachen, Umfang, Frist.",
+      "fileName": "de_projektblatt.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MUSTER — Projektblatt DE ↔ RO\n(Sprachen, Umfang, Frist.)\n\nDokumentart: formular de completat. An Auftrag und Behörde anpassen.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nAuszufüllen:\n• Name des Übersetzers: _________________________________\n• Beglaubigungs-/Zulassungsnr.: ___________________________\n• Auftraggeber: _________________________________________\n• Ausgangsdokument (Art, Nr.): ____________________________\n• Ausgangs- → Zielsprache: _______________________________\n• Datum: _______________    Ort: __________________________\n• Unterschrift & Stempel: _______________________________\n\n— Limba documentului: Deutsch"
+    },
+    {
+      "id": "it_dichiarazione_asseverazione",
+      "language": "italiana",
+      "category": "importante",
+      "title": "Dichiarazione di asseverazione",
+      "description": "Traduzione asseverata — modello per tribunale.",
+      "fileName": "it_dichiarazione_asseverazione.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Dichiarazione di asseverazione\n(Traduzione asseverata — modello per tribunale.)\n\nTipo: certificare / declarație oficială. Adattare al procedimento e all'ente destinatario.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_certificazione_conformita",
+      "language": "italiana",
+      "category": "importante",
+      "title": "Certificazione di conformità alla traduzione",
+      "description": "Dichiarazione esattezza e completezza.",
+      "fileName": "it_certificazione_conformita.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Certificazione di conformità alla traduzione\n(Dichiarazione esattezza e completezza.)\n\nTipo: certificare / declarație oficială. Adattare al procedimento e all'ente destinatario.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_listino_it",
+      "language": "italiana",
+      "category": "deServiciu",
+      "title": "Listino tariffe IT ↔ RO",
+      "description": "Pagina, parola, urgenza.",
+      "fileName": "it_listino_tariffe.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Listino tariffe IT ↔ RO\n(Pagina, parola, urgenza.)\n\nTipo: politică internă, tarife, proceduri. Adattare al procedimento e all'ente destinatario.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_procedura_apostilla_it",
+      "language": "italiana",
+      "category": "deServiciu",
+      "title": "Procedura apostilla Italia",
+      "description": "Documenti per Italia / UE.",
+      "fileName": "it_procedura_apostilla.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Procedura apostilla Italia\n(Documenti per Italia / UE.)\n\nTipo: politică internă, tarife, proceduri. Adattare al procedimento e all'ente destinatario.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_contratto_servizio_it",
+      "language": "italiana",
+      "category": "contracte",
+      "title": "Contratto di servizio di traduzione",
+      "description": "Modello traduttore–cliente.",
+      "fileName": "it_contratto_servizio.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Contratto di servizio di traduzione\n(Modello traduttore–cliente.)\n\nTipo: contract între părți. Adattare al procedimento e all'ente destinatario.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_nda_it",
+      "language": "italiana",
+      "category": "contracte",
+      "title": "Accordo di riservatezza (NDA)",
+      "description": "Progetti riservati.",
+      "fileName": "it_nda.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Accordo di riservatezza (NDA)\n(Progetti riservati.)\n\nTipo: contract între părți. Adattare al procedimento e all'ente destinatario.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_terminologia_enti_it",
+      "language": "italiana",
+      "category": "ghiduri",
+      "title": "Terminologia enti pubblici IT",
+      "description": "Comune, tribunale, Agenzia Entrate.",
+      "fileName": "it_terminologia_enti.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Terminologia enti pubblici IT\n(Comune, tribunale, Agenzia Entrate.)\n\nTipo: ghid de terminologie și stil. Adattare al procedimento e all'ente destinatario.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_atti_stato_civile_it",
+      "language": "italiana",
+      "category": "ghiduri",
+      "title": "Guida atti di stato civile",
+      "description": "Nascita, matrimonio, certificati.",
+      "fileName": "it_guida_stato_civile.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Guida atti di stato civile\n(Nascita, matrimonio, certificati.)\n\nTipo: ghid de terminologie și stil. Adattare al procedimento e all'ente destinatario.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_richiesta_urgente_it",
+      "language": "italiana",
+      "category": "formulare",
+      "title": "Richiesta traduzione urgente",
+      "description": "Modulo tempi brevi.",
+      "fileName": "it_richiesta_urgente.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Richiesta traduzione urgente\n(Modulo tempi brevi.)\n\nTipo: formular de completat. Adattare al procedimento e all'ente destinatario.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "it_scheda_progetto_it",
+      "language": "italiana",
+      "category": "formulare",
+      "title": "Scheda progetto IT ↔ RO",
+      "description": "Lingue, volume, scadenza.",
+      "fileName": "it_scheda_progetto.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELLO — Scheda progetto IT ↔ RO\n(Lingue, volume, scadenza.)\n\nTipo: formular de completat. Adattare al procedimento e all'ente destinatario.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nDa compilare:\n• Nome traduttore: ______________________________________\n• N. iscrizione / asseverazione: __________________________\n• Committente: __________________________________________\n• Documento di partenza (tipo, rif.): _____________________\n• Lingua di partenza → arrivo: ___________________________\n• Data: _______________    Luogo: _________________________\n• Firma e timbro: _______________________________________\n\n— Limba documentului: Italiano"
+    },
+    {
+      "id": "es_traduccion_jurada_declaracion",
+      "language": "spaniola",
+      "category": "importante",
+      "title": "Declaración traducción jurada",
+      "description": "Modelo para traductor jurado / certificada.",
+      "fileName": "es_declaracion_jurada.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Declaración traducción jurada\n(Modelo para traductor jurado / certificada.)\n\nTipo: certificare / declarație oficială. Adaptar al expediente y organismo de destino.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_certificado_fidelidad",
+      "language": "spaniola",
+      "category": "importante",
+      "title": "Certificado de fidelidad y exactitud",
+      "description": "Compromiso de exactitud del traductor.",
+      "fileName": "es_certificado_fidelidad.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Certificado de fidelidad y exactitud\n(Compromiso de exactitud del traductor.)\n\nTipo: certificare / declarație oficială. Adaptar al expediente y organismo de destino.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_tarifas_es",
+      "language": "spaniola",
+      "category": "deServiciu",
+      "title": "Tabla de tarifas ES ↔ RO",
+      "description": "Página, palabra, urgencia.",
+      "fileName": "es_tabla_tarifas.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Tabla de tarifas ES ↔ RO\n(Página, palabra, urgencia.)\n\nTipo: politică internă, tarife, proceduri. Adaptar al expediente y organismo de destino.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_procedimiento_apostilla",
+      "language": "spaniola",
+      "category": "deServiciu",
+      "title": "Procedimiento apostilla de La Haya",
+      "description": "Documentos para España / Latinoamérica.",
+      "fileName": "es_procedimiento_apostilla.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Procedimiento apostilla de La Haya\n(Documentos para España / Latinoamérica.)\n\nTipo: politică internă, tarife, proceduri. Adaptar al expediente y organismo de destino.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_contrato_servicios_es",
+      "language": "spaniola",
+      "category": "contracte",
+      "title": "Contrato de servicios de traducción",
+      "description": "Plantilla traductor–cliente.",
+      "fileName": "es_contrato_servicios.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Contrato de servicios de traducción\n(Plantilla traductor–cliente.)\n\nTipo: contract între părți. Adaptar al expediente y organismo de destino.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_nda_es",
+      "language": "spaniola",
+      "category": "contracte",
+      "title": "Acuerdo de confidencialidad (NDA)",
+      "description": "Proyectos confidenciales.",
+      "fileName": "es_nda.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Acuerdo de confidencialidad (NDA)\n(Proyectos confidenciales.)\n\nTipo: contract între părți. Adaptar al expediente y organismo de destino.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_terminologia_admin_es",
+      "language": "spaniola",
+      "category": "ghiduri",
+      "title": "Terminología administrativa ES",
+      "description": "Ayuntamiento, notaría, juzgado, Hacienda.",
+      "fileName": "es_terminologia_admin.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Terminología administrativa ES\n(Ayuntamiento, notaría, juzgado, Hacienda.)\n\nTipo: ghid de terminologie și stil. Adaptar al expediente y organismo de destino.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_registro_civil_es",
+      "language": "spaniola",
+      "category": "ghiduri",
+      "title": "Guía actas registro civil",
+      "description": "Nacimiento, matrimonio, defunción.",
+      "fileName": "es_guia_registro_civil.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Guía actas registro civil\n(Nacimiento, matrimonio, defunción.)\n\nTipo: ghid de terminologie și stil. Adaptar al expediente y organismo de destino.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_solicitud_urgente_es",
+      "language": "spaniola",
+      "category": "formulare",
+      "title": "Solicitud traducción urgente",
+      "description": "Formulario plazo corto.",
+      "fileName": "es_solicitud_urgente.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Solicitud traducción urgente\n(Formulario plazo corto.)\n\nTipo: formular de completat. Adaptar al expediente y organismo de destino.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "es_ficha_proyecto_es",
+      "language": "spaniola",
+      "category": "formulare",
+      "title": "Ficha proyecto ES ↔ RO",
+      "description": "Idiomas, volumen, plazo.",
+      "fileName": "es_ficha_proyecto.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MODELO — Ficha proyecto ES ↔ RO\n(Idiomas, volumen, plazo.)\n\nTipo: formular de completat. Adaptar al expediente y organismo de destino.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nDatos a cumplimentar:\n• Nombre del traductor: _________________________________\n• N.º de traductor jurado: ______________________________\n• Cliente / solicitante: ________________________________\n• Documento origen (tipo, ref.): ________________________\n• Idioma origen → destino: _______________________________\n• Fecha: _______________    Lugar: _______________________\n• Firma y sello: ________________________________________\n\n— Limba documentului: Español"
+    },
+    {
+      "id": "hu_hiteles_forditas_nyilatkozat",
+      "language": "maghiara",
+      "category": "importante",
+      "title": "Hiteles fordítás nyilatkozat",
+      "description": "Fordítói nyilatkozat hivatalos fordításhoz.",
+      "fileName": "hu_hiteles_nyilatkozat.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Hiteles fordítás nyilatkozat\n(Fordítói nyilatkozat hivatalos fordításhoz.)\n\nTípus: certificare / declarație oficială. Az ügy és a célhatóság szerint módosítandó.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_pontossagi_nyilatkozat",
+      "language": "maghiara",
+      "category": "importante",
+      "title": "Pontossági nyilatkozat",
+      "description": "Teljesség és helyesség vállalása.",
+      "fileName": "hu_pontossagi_nyilatkozat.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Pontossági nyilatkozat\n(Teljesség és helyesség vállalása.)\n\nTípus: certificare / declarație oficială. Az ügy és a célhatóság szerint módosítandó.\n\nCERTIFICATION\n\nI, _________________________, certified translator, hereby certify that:\n1. The attached translation is a true and complete rendering of the source document;\n2. Legal meaning and official terminology have been preserved;\n3. The translation is prepared for: ______________________________________.\n\nReference / case no.: ___________________________________________________.\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_arlista_hu",
+      "language": "maghiara",
+      "category": "deServiciu",
+      "title": "Árlista HU ↔ RO",
+      "description": "Oldal, szó, sürgősségi díj.",
+      "fileName": "hu_arlista.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Árlista HU ↔ RO\n(Oldal, szó, sürgősségi díj.)\n\nTípus: politică internă, tarife, proceduri. Az ügy és a célhatóság szerint módosítandó.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_apostille_eljaras",
+      "language": "maghiara",
+      "category": "deServiciu",
+      "title": "Apostille eljárás (Hágai Egyezmény)",
+      "description": "HU és RO hatóságok felé.",
+      "fileName": "hu_apostille_eljaras.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Apostille eljárás (Hágai Egyezmény)\n(HU és RO hatóságok felé.)\n\nTípus: politică internă, tarife, proceduri. Az ügy és a célhatóság szerint módosítandó.\n\n1. RATES (indicative)\n   • Standard: ______ per A4 page\n   • Rush (<48h): +_____%\n\n2. WORKFLOW\n   • Intake: secure email / portal\n   • Included revision: one minor round within 5 business days\n\n3. Privacy: client data processed only to perform the assignment.\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_forditas_szerzodes",
+      "language": "maghiara",
+      "category": "contracte",
+      "title": "Fordítási szolgáltatási szerződés",
+      "description": "Fordító–megbízó sablon.",
+      "fileName": "hu_forditas_szerzodes.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Fordítási szolgáltatási szerződés\n(Fordító–megbízó sablon.)\n\nTípus: contract între părți. Az ügy és a célhatóság szerint módosítandó.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_nda_hu",
+      "language": "maghiara",
+      "category": "contracte",
+      "title": "Titoktartási megállapodás (NDA)",
+      "description": "Bizalmas projektek.",
+      "fileName": "hu_nda.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Titoktartási megállapodás (NDA)\n(Bizalmas projektek.)\n\nTípus: contract între părți. Az ügy és a célhatóság szerint módosítandó.\n\nBETWEEN:\nProvider: _________________________ (certified translator)\nClient: ____________________________\n\nSUBJECT: translation services for documents listed in Annex 1.\n\nFEE: as per agreed rate — ______ per page (or per word).\nDELIVERY: by ___________.\nCONFIDENTIALITY: both parties shall keep received materials confidential.\n\nSignatures: Provider _________  Client _________  Date _________\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_kozigazgatasi_terminologia",
+      "language": "maghiara",
+      "category": "ghiduri",
+      "title": "Közigazgatási terminológia HU",
+      "description": "Önkormányzat, bíróság, NAV.",
+      "fileName": "hu_kozigazgatasi_terminologia.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Közigazgatási terminológia HU\n(Önkormányzat, bíróság, NAV.)\n\nTípus: ghid de terminologie și stil. Az ügy és a célhatóság szerint módosítandó.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_anyakonyvi_kivonatok",
+      "language": "maghiara",
+      "category": "ghiduri",
+      "title": "Útmutató anyakönyvi kivonatokhoz",
+      "description": "Születési, házassági anyakönyvi kivonat.",
+      "fileName": "hu_anyakonyvi_utmutato.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Útmutató anyakönyvi kivonatokhoz\n(Születési, házassági anyakönyvi kivonat.)\n\nTípus: ghid de terminologie și stil. Az ügy és a célhatóság szerint módosítandó.\n\nSample equivalents (EN ↔ RO):\n• birth certificate → certificat de naștere\n• marriage certificate → certificat de căsătorie\n• court judgment → hotărâre judecătorească\n\nRules: retain proper names; expand agencies on first mention.\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_surgos_igeny_hu",
+      "language": "maghiara",
+      "category": "formulare",
+      "title": "Sürgős fordítás igénylő lap",
+      "description": "Rövid határidő.",
+      "fileName": "hu_surgos_igeny.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Sürgős fordítás igénylő lap\n(Rövid határidő.)\n\nTípus: formular de completat. Az ügy és a célhatóság szerint módosítandó.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    },
+    {
+      "id": "hu_projekt_lap_hu",
+      "language": "maghiara",
+      "category": "formulare",
+      "title": "Projekt lap HU ↔ RO",
+      "description": "Nyelvek, terjedelem, határidő.",
+      "fileName": "hu_projekt_lap.pdf",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "templateText": "MINTA — Projekt lap HU ↔ RO\n(Nyelvek, terjedelem, határidő.)\n\nTípus: formular de completat. Az ügy és a célhatóság szerint módosítandó.\n\nREQUEST\n\nPlease translate the attached documents under:\n☐ standard   ☐ rush (deadline: ___________)\n\nDelivery: ☐ signed PDF  ☐ hard copy  ☐ both\nContact: email _______________  phone _______________\n\nKitöltendő adatok:\n• Fordító neve: _________________________________________\n• Hivatalos/jogosultsági szám: ____________________________\n• Megbízó: ______________________________________________\n• Forrásdokumentum (típus, ikt.): _________________________\n• Forrás → cél nyelv: ___________________________________\n• Dátum: _______________    Hely: _______________________\n• Aláírás és pecsét: _____________________________________\n\n— Limba documentului: Magyar"
+    }
+  ]
+}

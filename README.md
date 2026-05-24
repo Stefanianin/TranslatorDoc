@@ -12,10 +12,8 @@ Catalog gratuit de modele pentru traducători autorizați și birouri de traduce
 
 Pornește local
 
-Bash
-cd /Users/stefanianinoiu/hhh/TradufyWeb
+cd /Users/stefanianinoiu/hhh/TranslatorDocsWeb
 python3 -m http.server 8080
-
 http://localhost:8080
 
 git init
